@@ -12,6 +12,11 @@
 #import "MainTabBarController.h"
 @implementation OtherViewController
 
+- (void)viewWillAppear:(BOOL)animated {
+
+    [super viewWillAppear:YES];
+}
+
 - (void)viewDidLoad {
 
     [super viewDidLoad];

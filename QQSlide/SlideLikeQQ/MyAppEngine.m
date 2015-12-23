@@ -12,6 +12,7 @@
 #import "ContactsController.h"
 #import "HomeViewController.h"
 #import "MainTabBarController.h"
+#import "CJNavigationController.h"
 static MyAppEngine *sharedElement = nil;
 
 @implementation MyAppEngine

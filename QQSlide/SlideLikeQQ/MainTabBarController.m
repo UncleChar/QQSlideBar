@@ -43,7 +43,7 @@
         case 1:
         {
         
-            [appEngine.rootViewController.mainTabBarController.view addSubview:appEngine.contactsVC.view];
+//            [appEngine.rootViewController.mainTabBarController.view addSubview:appEngine.contactsVC.view];
             [appEngine.rootViewController.mainTabBarController.view bringSubviewToFront:appEngine.rootViewController.mainTabBarController.tabBar];
             
         }

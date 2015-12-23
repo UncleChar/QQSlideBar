@@ -43,7 +43,7 @@
 
     OtherViewController *other = [[OtherViewController alloc]init];
     other.nameOfController = _titleOfController;
-    [self.navigationController pushViewController:other animated:YES];
+    [self.navigationController pushViewController:other animated:nil];
     
 }
 
