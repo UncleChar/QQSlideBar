@@ -177,6 +177,8 @@
 - (void)leftControllerAppear{
 
     [mainView addGestureRecognizer:tapGesture];
+    //在这里提前刷洗防止tableView留下上次选中的状态
+    [leftVC.listTableView reloadData];
     distance = self.view.center.x * (fullDistance + proportion / 2);
     [self doAnimationWithScale:proportion withType:@"left"];
 }

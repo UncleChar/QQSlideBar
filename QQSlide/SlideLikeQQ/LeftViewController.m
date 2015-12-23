@@ -17,13 +17,23 @@
 @interface LeftViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic, strong) NSArray  *titleListArray;
-@property (nonatomic, strong) UITableView  *listTableView;
+
 @property (nonatomic, strong) UIImageView  *avatarImageView;
 @property (nonatomic, strong) NSLayoutConstraint *heightLayoutConstraintOfListTableView;
 @property (nonatomic, strong) FundamentalViewController  *rootViewController;
 @end
 
 @implementation LeftViewController
+
+//- (void)viewWillAppear:(BOOL)animated {
+//
+//    [super viewWillAppear:YES];
+//    if (_listTableView) {
+//        
+//        [_listTableView reloadData];
+//    }
+//}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -38,7 +48,7 @@
 //    _listTableView.tableFooterView
     _heightLayoutConstraintOfListTableView.constant = kScreenHeight < 500 ? kScreenHeight * (568 -221)/568 : 347;
     self.view.frame = CGRectMake(0, 0, 320 * 0.78, kScreenHeight);
-    
+
     
     
     

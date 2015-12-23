@@ -246,7 +246,7 @@
 				TargetAttributes = {
 					DB8BFF621C297AB700DF2954 = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = XP83374CHB;
+						DevelopmentTeam = 244758CBEJ;
 					};
 					DB8BFF7B1C297AB700DF2954 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -399,7 +399,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "3fa81703-dd58-4cd1-897d-d365b504f87f";
+				PROVISIONING_PROFILE = "efc4cb6d-c60d-475a-af8e-ad12850a4c3c";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,7 +438,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "3fa81703-dd58-4cd1-897d-d365b504f87f";
+				PROVISIONING_PROFILE = "efc4cb6d-c60d-475a-af8e-ad12850a4c3c";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -449,14 +449,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jun Quan (WCTJ975P5S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jun Quan (WCTJ975P5S)";
 				INFOPLIST_FILE = SlideLikeQQ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xhl.SlideLikeQQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "efc4cb6d-c60d-475a-af8e-ad12850a4c3c";
 			};
 			name = Debug;
 		};
@@ -464,14 +464,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jun Quan (WCTJ975P5S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jun Quan (WCTJ975P5S)";
 				INFOPLIST_FILE = SlideLikeQQ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xhl.SlideLikeQQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "efc4cb6d-c60d-475a-af8e-ad12850a4c3c";
 			};
 			name = Release;
 		};

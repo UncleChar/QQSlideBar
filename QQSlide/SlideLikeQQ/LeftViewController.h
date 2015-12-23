@@ -10,7 +10,7 @@
 
 @interface LeftViewController : UIViewController
 
-
+@property (nonatomic, strong) UITableView  *listTableView;
 
 
 @end

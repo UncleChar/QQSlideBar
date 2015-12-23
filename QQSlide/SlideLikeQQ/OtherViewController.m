@@ -20,9 +20,10 @@
 - (void)viewDidLoad {
 
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor greenColor];
     self.title = _nameOfController;
     UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithTitle:@"く返回" style:UIBarButtonItemStylePlain target:self action:@selector(goBack)];
-
+    NSLog(@"fffff %@",self.navigationController);
     self.navigationItem.leftBarButtonItem = leftItem;
     
     UILabel  *label = [[UILabel alloc]init];
@@ -34,11 +35,23 @@
     [self.view addSubview:label];
     
 
-    UIPanGestureRecognizer  *pan = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(goBack)];
+    UIPanGestureRecognizer  *pan = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(pan:)];
     [self.view addGestureRecognizer:pan];
 
     
 }
+- (void)pan:(UIPanGestureRecognizer *)recognizer {
+
+    CGFloat panX    = [recognizer translationInView:self.view].x;
+//    NSLog(@"distaanceX %f",panX);
+    
+    if (panX > 50) {
+        
+        [self goBack];
+    }
+}
+
+
 - (void)goBack {
 
     [self.navigationController popViewControllerAnimated:YES];
