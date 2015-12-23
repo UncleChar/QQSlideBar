@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D2CB6A21C2A39F500531C6D /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2CB6A11C2A39F500531C6D /* MainTabBarController.m */; };
+		9D2CB6A51C2A3AF300531C6D /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2CB6A41C2A3AF300531C6D /* ContactsController.m */; };
+		9D2CB6A81C2A3E5600531C6D /* MyAppEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2CB6A71C2A3E5600531C6D /* MyAppEngine.m */; };
+		9D2CB6AA1C2A4D7A00531C6D /* gold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2CB6A91C2A4D7A00531C6D /* gold@2x.png */; };
+		9D2CB6AC1C2A4D8300531C6D /* qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2CB6AB1C2A4D8300531C6D /* qq@3x.png */; };
+		9D2CB6AE1C2A4D8900531C6D /* xingxing_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2CB6AD1C2A4D8900531C6D /* xingxing_yellow@2x.png */; };
+		9D2CB6B01C2A4D8F00531C6D /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2CB6AF1C2A4D8F00531C6D /* back@3x.png */; };
+		9D96D9731C2A7E4200C2A208 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D96D9721C2A7E4200C2A208 /* OtherViewController.m */; };
+		DB8BFF681C297AB700DF2954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BFF671C297AB700DF2954 /* main.m */; };
+		DB8BFF6B1C297AB700DF2954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BFF6A1C297AB700DF2954 /* AppDelegate.m */; };
+		DB8BFF731C297AB700DF2954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8BFF721C297AB700DF2954 /* Assets.xcassets */; };
+		DB8BFF811C297AB700DF2954 /* SlideLikeQQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BFF801C297AB700DF2954 /* SlideLikeQQTests.m */; };
+		DB8BFF8C1C297AB700DF2954 /* SlideLikeQQUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BFF8B1C297AB700DF2954 /* SlideLikeQQUITests.m */; };
+		DB8BFF9B1C297BE000DF2954 /* FundamentalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BFF9A1C297BE000DF2954 /* FundamentalViewController.m */; };
+		DB8BFF9E1C297CAC00DF2954 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BFF9D1C297CAC00DF2954 /* HomeViewController.m */; };
+		DB8BFFA31C298BEA00DF2954 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BFFA21C298BEA00DF2954 /* LeftViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB8BFF7D1C297AB700DF2954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB8BFF5B1C297AB700DF2954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8BFF621C297AB700DF2954;
+			remoteInfo = SlideLikeQQ;
+		};
+		DB8BFF881C297AB700DF2954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB8BFF5B1C297AB700DF2954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8BFF621C297AB700DF2954;
+			remoteInfo = SlideLikeQQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D2CB6A01C2A39F500531C6D /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		9D2CB6A11C2A39F500531C6D /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		9D2CB6A31C2A3AF300531C6D /* ContactsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsController.h; sourceTree = "<group>"; };
+		9D2CB6A41C2A3AF300531C6D /* ContactsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsController.m; sourceTree = "<group>"; };
+		9D2CB6A61C2A3E5600531C6D /* MyAppEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAppEngine.h; sourceTree = "<group>"; };
+		9D2CB6A71C2A3E5600531C6D /* MyAppEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAppEngine.m; sourceTree = "<group>"; };
+		9D2CB6A91C2A4D7A00531C6D /* gold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gold@2x.png"; sourceTree = "<group>"; };
+		9D2CB6AB1C2A4D8300531C6D /* qq@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qq@3x.png"; sourceTree = "<group>"; };
+		9D2CB6AD1C2A4D8900531C6D /* xingxing_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xingxing_yellow@2x.png"; sourceTree = "<group>"; };
+		9D2CB6AF1C2A4D8F00531C6D /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		9D96D9711C2A7E4200C2A208 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		9D96D9721C2A7E4200C2A208 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		DB8BFF631C297AB700DF2954 /* SlideLikeQQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideLikeQQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8BFF671C297AB700DF2954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB8BFF691C297AB700DF2954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB8BFF6A1C297AB700DF2954 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB8BFF721C297AB700DF2954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB8BFF771C297AB700DF2954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8BFF7C1C297AB700DF2954 /* SlideLikeQQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideLikeQQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8BFF801C297AB700DF2954 /* SlideLikeQQTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideLikeQQTests.m; sourceTree = "<group>"; };
+		DB8BFF821C297AB700DF2954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8BFF871C297AB700DF2954 /* SlideLikeQQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideLikeQQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8BFF8B1C297AB700DF2954 /* SlideLikeQQUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideLikeQQUITests.m; sourceTree = "<group>"; };
+		DB8BFF8D1C297AB700DF2954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8BFF991C297BE000DF2954 /* FundamentalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FundamentalViewController.h; sourceTree = "<group>"; };
+		DB8BFF9A1C297BE000DF2954 /* FundamentalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FundamentalViewController.m; sourceTree = "<group>"; };
+		DB8BFF9C1C297CAC00DF2954 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DB8BFF9D1C297CAC00DF2954 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DB8BFFA11C298BEA00DF2954 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		DB8BFFA21C298BEA00DF2954 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB8BFF601C297AB700DF2954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BFF791C297AB700DF2954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BFF841C297AB700DF2954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB8BFF5A1C297AB700DF2954 = {
+			isa = PBXGroup;
+			children = (
+				DB8BFF651C297AB700DF2954 /* SlideLikeQQ */,
+				DB8BFF7F1C297AB700DF2954 /* SlideLikeQQTests */,
+				DB8BFF8A1C297AB700DF2954 /* SlideLikeQQUITests */,
+				DB8BFF641C297AB700DF2954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB8BFF641C297AB700DF2954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BFF631C297AB700DF2954 /* SlideLikeQQ.app */,
+				DB8BFF7C1C297AB700DF2954 /* SlideLikeQQTests.xctest */,
+				DB8BFF871C297AB700DF2954 /* SlideLikeQQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB8BFF651C297AB700DF2954 /* SlideLikeQQ */ = {
+			isa = PBXGroup;
+			children = (
+				9D2CB6A61C2A3E5600531C6D /* MyAppEngine.h */,
+				9D2CB6A71C2A3E5600531C6D /* MyAppEngine.m */,
+				DB8BFF691C297AB700DF2954 /* AppDelegate.h */,
+				DB8BFF6A1C297AB700DF2954 /* AppDelegate.m */,
+				DB8BFF991C297BE000DF2954 /* FundamentalViewController.h */,
+				DB8BFF9A1C297BE000DF2954 /* FundamentalViewController.m */,
+				DB8BFF9C1C297CAC00DF2954 /* HomeViewController.h */,
+				DB8BFF9D1C297CAC00DF2954 /* HomeViewController.m */,
+				DB8BFFA11C298BEA00DF2954 /* LeftViewController.h */,
+				DB8BFFA21C298BEA00DF2954 /* LeftViewController.m */,
+				9D2CB6A01C2A39F500531C6D /* MainTabBarController.h */,
+				9D2CB6A11C2A39F500531C6D /* MainTabBarController.m */,
+				9D96D9711C2A7E4200C2A208 /* OtherViewController.h */,
+				9D96D9721C2A7E4200C2A208 /* OtherViewController.m */,
+				DB8BFF721C297AB700DF2954 /* Assets.xcassets */,
+				9D2CB6AD1C2A4D8900531C6D /* xingxing_yellow@2x.png */,
+				9D2CB6AF1C2A4D8F00531C6D /* back@3x.png */,
+				9D2CB6AB1C2A4D8300531C6D /* qq@3x.png */,
+				9D2CB6A91C2A4D7A00531C6D /* gold@2x.png */,
+				DB8BFF771C297AB700DF2954 /* Info.plist */,
+				DB8BFF661C297AB700DF2954 /* Supporting Files */,
+				9D2CB6A31C2A3AF300531C6D /* ContactsController.h */,
+				9D2CB6A41C2A3AF300531C6D /* ContactsController.m */,
+			);
+			path = SlideLikeQQ;
+			sourceTree = "<group>";
+		};
+		DB8BFF661C297AB700DF2954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BFF671C297AB700DF2954 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB8BFF7F1C297AB700DF2954 /* SlideLikeQQTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BFF801C297AB700DF2954 /* SlideLikeQQTests.m */,
+				DB8BFF821C297AB700DF2954 /* Info.plist */,
+			);
+			path = SlideLikeQQTests;
+			sourceTree = "<group>";
+		};
+		DB8BFF8A1C297AB700DF2954 /* SlideLikeQQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BFF8B1C297AB700DF2954 /* SlideLikeQQUITests.m */,
+				DB8BFF8D1C297AB700DF2954 /* Info.plist */,
+			);
+			path = SlideLikeQQUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB8BFF621C297AB700DF2954 /* SlideLikeQQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8BFF901C297AB700DF2954 /* Build configuration list for PBXNativeTarget "SlideLikeQQ" */;
+			buildPhases = (
+				DB8BFF5F1C297AB700DF2954 /* Sources */,
+				DB8BFF601C297AB700DF2954 /* Frameworks */,
+				DB8BFF611C297AB700DF2954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideLikeQQ;
+			productName = SlideLikeQQ;
+			productReference = DB8BFF631C297AB700DF2954 /* SlideLikeQQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB8BFF7B1C297AB700DF2954 /* SlideLikeQQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8BFF931C297AB700DF2954 /* Build configuration list for PBXNativeTarget "SlideLikeQQTests" */;
+			buildPhases = (
+				DB8BFF781C297AB700DF2954 /* Sources */,
+				DB8BFF791C297AB700DF2954 /* Frameworks */,
+				DB8BFF7A1C297AB700DF2954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB8BFF7E1C297AB700DF2954 /* PBXTargetDependency */,
+			);
+			name = SlideLikeQQTests;
+			productName = SlideLikeQQTests;
+			productReference = DB8BFF7C1C297AB700DF2954 /* SlideLikeQQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB8BFF861C297AB700DF2954 /* SlideLikeQQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8BFF961C297AB700DF2954 /* Build configuration list for PBXNativeTarget "SlideLikeQQUITests" */;
+			buildPhases = (
+				DB8BFF831C297AB700DF2954 /* Sources */,
+				DB8BFF841C297AB700DF2954 /* Frameworks */,
+				DB8BFF851C297AB700DF2954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB8BFF891C297AB700DF2954 /* PBXTargetDependency */,
+			);
+			name = SlideLikeQQUITests;
+			productName = SlideLikeQQUITests;
+			productReference = DB8BFF871C297AB700DF2954 /* SlideLikeQQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB8BFF5B1C297AB700DF2954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = hailong.xie;
+				TargetAttributes = {
+					DB8BFF621C297AB700DF2954 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 244758CBEJ;
+					};
+					DB8BFF7B1C297AB700DF2954 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 244758CBEJ;
+						TestTargetID = DB8BFF621C297AB700DF2954;
+					};
+					DB8BFF861C297AB700DF2954 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 244758CBEJ;
+						TestTargetID = DB8BFF621C297AB700DF2954;
+					};
+				};
+			};
+			buildConfigurationList = DB8BFF5E1C297AB700DF2954 /* Build configuration list for PBXProject "SlideLikeQQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB8BFF5A1C297AB700DF2954;
+			productRefGroup = DB8BFF641C297AB700DF2954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB8BFF621C297AB700DF2954 /* SlideLikeQQ */,
+				DB8BFF7B1C297AB700DF2954 /* SlideLikeQQTests */,
+				DB8BFF861C297AB700DF2954 /* SlideLikeQQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB8BFF611C297AB700DF2954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8BFF731C297AB700DF2954 /* Assets.xcassets in Resources */,
+				9D2CB6AC1C2A4D8300531C6D /* qq@3x.png in Resources */,
+				9D2CB6B01C2A4D8F00531C6D /* back@3x.png in Resources */,
+				9D2CB6AA1C2A4D7A00531C6D /* gold@2x.png in Resources */,
+				9D2CB6AE1C2A4D8900531C6D /* xingxing_yellow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BFF7A1C297AB700DF2954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BFF851C297AB700DF2954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB8BFF5F1C297AB700DF2954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8BFF9B1C297BE000DF2954 /* FundamentalViewController.m in Sources */,
+				9D2CB6A51C2A3AF300531C6D /* ContactsController.m in Sources */,
+				DB8BFFA31C298BEA00DF2954 /* LeftViewController.m in Sources */,
+				9D96D9731C2A7E4200C2A208 /* OtherViewController.m in Sources */,
+				9D2CB6A21C2A39F500531C6D /* MainTabBarController.m in Sources */,
+				DB8BFF6B1C297AB700DF2954 /* AppDelegate.m in Sources */,
+				9D2CB6A81C2A3E5600531C6D /* MyAppEngine.m in Sources */,
+				DB8BFF681C297AB700DF2954 /* main.m in Sources */,
+				DB8BFF9E1C297CAC00DF2954 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BFF781C297AB700DF2954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8BFF811C297AB700DF2954 /* SlideLikeQQTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BFF831C297AB700DF2954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8BFF8C1C297AB700DF2954 /* SlideLikeQQUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB8BFF7E1C297AB700DF2954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB8BFF621C297AB700DF2954 /* SlideLikeQQ */;
+			targetProxy = DB8BFF7D1C297AB700DF2954 /* PBXContainerItemProxy */;
+		};
+		DB8BFF891C297AB700DF2954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB8BFF621C297AB700DF2954 /* SlideLikeQQ */;
+			targetProxy = DB8BFF881C297AB700DF2954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB8BFF8E1C297AB700DF2954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB8BFF8F1C297AB700DF2954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB8BFF911C297AB700DF2954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlideLikeQQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhl.SlideLikeQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB8BFF921C297AB700DF2954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlideLikeQQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhl.SlideLikeQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB8BFF941C297AB700DF2954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideLikeQQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhl.SlideLikeQQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideLikeQQ.app/SlideLikeQQ";
+			};
+			name = Debug;
+		};
+		DB8BFF951C297AB700DF2954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideLikeQQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhl.SlideLikeQQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideLikeQQ.app/SlideLikeQQ";
+			};
+			name = Release;
+		};
+		DB8BFF971C297AB700DF2954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlideLikeQQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhl.SlideLikeQQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlideLikeQQ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB8BFF981C297AB700DF2954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlideLikeQQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhl.SlideLikeQQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlideLikeQQ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB8BFF5E1C297AB700DF2954 /* Build configuration list for PBXProject "SlideLikeQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8BFF8E1C297AB700DF2954 /* Debug */,
+				DB8BFF8F1C297AB700DF2954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8BFF901C297AB700DF2954 /* Build configuration list for PBXNativeTarget "SlideLikeQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8BFF911C297AB700DF2954 /* Debug */,
+				DB8BFF921C297AB700DF2954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8BFF931C297AB700DF2954 /* Build configuration list for PBXNativeTarget "SlideLikeQQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8BFF941C297AB700DF2954 /* Debug */,
+				DB8BFF951C297AB700DF2954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8BFF961C297AB700DF2954 /* Build configuration list for PBXNativeTarget "SlideLikeQQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8BFF971C297AB700DF2954 /* Debug */,
+				DB8BFF981C297AB700DF2954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB8BFF5B1C297AB700DF2954 /* Project object */;
+}
