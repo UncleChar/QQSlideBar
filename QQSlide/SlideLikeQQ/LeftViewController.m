@@ -31,7 +31,7 @@
     
     _titleListArray = @[@"开通会员", @"QQ钱包", @"网上营业厅", @"个性装扮", @"我的收藏", @"我的相册", @"我的文件"];
     
-    _listTableView = [[UITableView alloc]initWithFrame:CGRectMake(20, 160, 560, 360) style:UITableViewStylePlain];
+    _listTableView = [[UITableView alloc]initWithFrame:CGRectMake(20, self.view.frame.size.height / 2 - 154,200, _titleListArray.count * 44.0) style:UITableViewStylePlain];
     _listTableView.dataSource = self;
     _listTableView.delegate = self;
     [self.view addSubview:_listTableView];
