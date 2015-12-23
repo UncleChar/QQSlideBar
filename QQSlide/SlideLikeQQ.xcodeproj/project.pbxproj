@@ -15,6 +15,7 @@
 		9D2CB6AE1C2A4D8900531C6D /* xingxing_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2CB6AD1C2A4D8900531C6D /* xingxing_yellow@2x.png */; };
 		9D2CB6B01C2A4D8F00531C6D /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2CB6AF1C2A4D8F00531C6D /* back@3x.png */; };
 		9D96D9731C2A7E4200C2A208 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D96D9721C2A7E4200C2A208 /* OtherViewController.m */; };
+		9D96D97E1C2AA1DB00C2A208 /* tabbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D96D97D1C2AA1DB00C2A208 /* tabbar_bg.png */; };
 		DB8BFF681C297AB700DF2954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BFF671C297AB700DF2954 /* main.m */; };
 		DB8BFF6B1C297AB700DF2954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8BFF6A1C297AB700DF2954 /* AppDelegate.m */; };
 		DB8BFF731C297AB700DF2954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8BFF721C297AB700DF2954 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		9D2CB6AF1C2A4D8F00531C6D /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
 		9D96D9711C2A7E4200C2A208 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		9D96D9721C2A7E4200C2A208 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		9D96D97D1C2AA1DB00C2A208 /* tabbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_bg.png; sourceTree = "<group>"; };
 		DB8BFF631C297AB700DF2954 /* SlideLikeQQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideLikeQQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8BFF671C297AB700DF2954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB8BFF691C297AB700DF2954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				9D2CB6AD1C2A4D8900531C6D /* xingxing_yellow@2x.png */,
 				9D2CB6AF1C2A4D8F00531C6D /* back@3x.png */,
 				9D2CB6AB1C2A4D8300531C6D /* qq@3x.png */,
+				9D96D97D1C2AA1DB00C2A208 /* tabbar_bg.png */,
 				9D2CB6A91C2A4D7A00531C6D /* gold@2x.png */,
 				DB8BFF771C297AB700DF2954 /* Info.plist */,
 				DB8BFF661C297AB700DF2954 /* Supporting Files */,
@@ -284,6 +287,7 @@
 			files = (
 				DB8BFF731C297AB700DF2954 /* Assets.xcassets in Resources */,
 				9D2CB6AC1C2A4D8300531C6D /* qq@3x.png in Resources */,
+				9D96D97E1C2AA1DB00C2A208 /* tabbar_bg.png in Resources */,
 				9D2CB6B01C2A4D8F00531C6D /* back@3x.png in Resources */,
 				9D2CB6AA1C2A4D7A00531C6D /* gold@2x.png in Resources */,
 				9D2CB6AE1C2A4D8900531C6D /* xingxing_yellow@2x.png in Resources */,

@@ -34,6 +34,8 @@
     [self.view addSubview:label];
     
 
+    UIPanGestureRecognizer  *pan = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(goBack)];
+    [self.view addGestureRecognizer:pan];
 
     
 }

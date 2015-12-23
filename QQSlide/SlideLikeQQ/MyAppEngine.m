@@ -12,7 +12,6 @@
 #import "ContactsController.h"
 #import "HomeViewController.h"
 #import "MainTabBarController.h"
-#import "CJNavigationController.h"
 static MyAppEngine *sharedElement = nil;
 
 @implementation MyAppEngine
@@ -52,6 +51,8 @@ static MyAppEngine *sharedElement = nil;
         
         self.rootViewController =(FundamentalViewController *)[[[[UIApplication sharedApplication] delegate] window] rootViewController];
         self.rootViewController.mainTabBarController = [[MainTabBarController alloc]init];
+//        self.rootViewController.mainTabBarController.tabBar.backgroundImage = [UIImage imageNamed:@"tabbar_bg"];
+        
         self.contactsVC = [[ContactsController alloc]init];
         
         self.homeViewController = [[HomeViewController alloc]init];
